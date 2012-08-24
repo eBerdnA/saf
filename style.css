@@ -1,0 +1,236 @@
+/*
+Theme Name: Simple and focused
+Description: A simple and text focused theme
+Author: Andre Bering
+Author URI: http://blog.bering.in
+Version: 0.0.2
+*/
+
+body {
+  /*font-family: 'Open Sans', Verdana, sans-serif;*/
+  font-family: Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#backtoall a {
+    color: #848484;
+    background-color: #E6E6E6;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    text-align: center;
+    height: 40px;
+    display: block;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+#container {
+  width: 960px;
+  margin: 80px auto 120px auto;
+}
+
+/* Sidebar */
+#sidebar {
+  float: left;
+  width: 120px;
+  margin-right: 100px;
+}
+#sidebar ul {
+  list-style-type: none;
+}
+
+#sidebar .header {
+  margin-bottom: 20px;
+}
+
+#sidebar ul {
+  padding-left: 0px;
+}
+
+#sidebar .search {
+  padding: 0px;
+  margin: 0px;
+}
+
+#sidebar .search form{
+  padding: 0px;
+  margin: 0px;
+}
+
+#sidebar .pages .page_item .children{
+    padding-left:5px;
+}
+/* Sidebar ends */
+
+/* Post */
+#content {
+  float: left;
+  width: 700px;
+}
+
+#content .post {
+	margin:0 0 25px 0;  
+	clear:both;
+  border: 1px solid #CECECE;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#content .post  .posttitle {
+  padding: 0 15px 7px 15px;
+}
+
+#content .post  .posttitle h2 a {
+  text-decoration: none;
+  color: #1281BB;  
+}
+
+#content .post .postentry {
+  padding: 0 15px 7px 15px;
+}
+
+/*#content .post .postentry pre {
+  white-space: pre-wrap; /* css-3 */
+  /*white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  /*white-space: -pre-wrap; /* Opera 4-6 */
+  /*white-space: -o-pre-wrap; /* Opera 7 */
+/*}*/ 
+
+#content .post .postmetadata {
+  color: #AAA;
+  border-top: 1px solid #CECECE;
+  padding: 7px 15px 7px 15px;
+  height: 100%;
+}
+#content .post .postmetadata .time {
+  text-align: left;
+  float: left;
+} 
+#content .post .postmetadata .comment {
+  text-align: right;
+  float: right;
+}
+#content .post .postmetadata .clear {
+  clear: both;
+}
+/* Post ends*/
+
+/* Comments */
+#comments {
+  width: 700px;
+}
+#comment {
+  width: 700px;
+}
+
+#comments .singlecomment {
+    border: 1px solid #CECECE;
+    margin-bottom: 10px;
+}
+
+#comments .singlecomment .commentcontent {    
+  padding: 7px 15px 7px 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#comments .singlecomment .commentcontent .commentauthor{    
+    font-weight: 700;
+}
+
+#comments .singlecomment .commentcontent a{    
+    text-decoration: none;    
+}
+
+#comments .singletrackback {
+    border: 1px solid #CECECE;
+    margin-bottom: 10px;
+    padding: 7px 15px 7px 15px;
+}
+
+#content .singlecomment .commentmeta {
+  color: #AAA;
+  border-top: 1px solid #CECECE;
+  height: 100%;
+}
+#content .singlecomment .commentmeta .commentmetacontent {
+    padding: 7px 15px 7px 15px;
+}
+/* Comments ends */
+
+/* Footer */  
+#footer {
+  margin-top: 100px;  
+  padding-left: 220px;
+  float: left;
+  font-size: 0.6em;
+  line-height: 1.0em;
+}
+/* Footer */
+
+/* Wp-PageNavi */
+
+#content .wp-pagenavi {  
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#content .wp-pagenavi span.current {
+  opacity: 0.7;
+}
+#content .wp-pagenavi a.nextpostslink,
+#content .wp-pagenavi a.previouspostslink,
+#content .wp-pagenavi a.first,
+#content .wp-pagenavi {
+  
+}
+#content .wp-pagenavi a.page, 
+#content .wp-pagenavi a.nextpostslink, 
+#content .wp-pagenavi a.previouspostslink, 
+#content .wp-pagenavi a.first, 
+#content .wp-pagenavi a.last, 
+#content .wp-pagenavi span.current {
+  background: #165279;
+  color: #EEE;
+  border-radius: 4px;
+  margin: 0 4px 5px;
+  padding: 9px 11px;
+}
+
+/* Wp-PageNavi ends */
+
+/* Images Start */
+img.size-auto,
+img.size-full,
+img.size-large,
+img.size-medium,
+.attachment img {
+	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
+	height: auto; /* Override height to match resized width for correct aspect ratio. */
+}
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+	margin-top: 4px;
+}
+.alignright,
+img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+	margin-top: 4px;
+}
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Images ends */
